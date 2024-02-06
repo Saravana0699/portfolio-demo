@@ -1,0 +1,238 @@
+body{
+    margin: auto;
+  }
+  
+  
+  
+  .head {
+    background-color: rgba(15, 13, 13, 0.897);
+  }
+  
+  /* header of .portfolio page */
+  
+  .head h1 {
+    color: rgb(248, 249, 250)!important;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-indent: 40px;
+    text-shadow: rgb(0, 0, 0) 2px 5px 4px;
+    font-family: "Roboto Slab", serif;
+    margin-top: 10px;
+    padding: 5px;
+    float: left;
+  }
+  
+  /* header of .home buttons */
+  
+  .head ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: auto;
+    direction: rtl;
+    padding: 20px;
+    text-indent: 100px;
+  }
+  
+  .head li{
+    display: inline;
+  }
+  
+  
+  .head li a {
+    font-size: 16px;
+    font-family: "Roboto", serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: rgb(0, 0, 0) 2px 5px 4px;
+    padding: 15px;
+  }
+  
+  .head li a:hover {
+    background-color:white;
+    color: #000000;
+    text-shadow:white 2px 5px 4px;
+  }
+  /* header of .home buttons */
+  
+   /* section 1 of .first layer */
+  
+  .portfolio {
+    background-image: url(img/wp5709451-hacker-desktop-4k-wallpapers.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+   border: 1px solid black;
+   margin: auto;
+  }
+  
+  .portfolio h1 {
+    color: rgb(248, 249, 250)!important;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: rgb(0, 0, 0) 2px 5px 4px;
+    font-family: "Roboto Slab", serif;
+    text-align: justify;
+    text-indent: 600px;
+    margin-top: 320px;
+  }
+  
+  .portfolio h2{
+    color: rgb(248, 249, 250)!important;
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: rgb(0, 0, 0) 2px 5px 4px;
+    font-family: "Roboto Slab", serif;
+    text-align: justify;
+    text-indent: 600px;
+  }
+  
+  /* first layer and buttons  */
+  
+  
+  .portfolio a {
+    color: #f8f9fa;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    font-family:"Roboto", serif;
+    font-size:medium;
+    font-weight: 400;
+    border-style: solid;
+    border-width: 1px; */
+    border-color: #f8f9fa;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+    left: 40%;
+  }
+  
+  .portfolio a:hover{
+    background-color: #f8f9fa;
+    color: #000000;
+  }
+  
+  /* buttons layers */
+  
+  /* section 1 some content */
+  
+  .portfolio p{
+    color: #f8f9fa;
+    text-shadow: rgb(0, 0, 0) 2px 5px 4px;
+    text-align: justify;
+    text-indent: 10px;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  
+  /* section 2 .second layer */
+  
+  .intro {
+    background-image: url(/codes/intro/img/wp2592475-hacking-wallpaper.jpg);
+    background-color: black;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    height: 650px;
+    margin: auto;
+    border-top:  1px solid #ffffff;
+  }
+  
+  .intro h1{
+    color: #fff;
+    text-align:center;
+  }
+  
+  .intro p{
+    color: #fff;
+    text-align: justify;
+    text-indent: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* section 2  .second layer */
+  
+  
+   /* section 3 web layout postion  */
+  
+   .text-center{
+    text-align: left;
+    text-indent: 50px;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+   }
+   .weblayout > div{
+  padding: 20px 0;
+  text-align: center;
+  margin: 5px 0;
+   }
+  
+   .navbar{
+  background-color: #4caf50;
+   }
+  
+   .menu{
+    background-color: #3f51b5;
+    float: left;
+    width: 33.33%;
+    height: 200px;
+   }
+  
+   .content{
+    background-color:   aqua;
+    float: left;
+    width: 33.33%;
+    height: 200px;
+   }
+   
+  
+   .sidebar{
+    background-color: #ff9800;
+    float: left;
+    width: 33.33%;
+    height: 200px;
+   }
+   
+  
+   .foot{
+    background-color: tomato;
+    clear: both;
+   }
+  
+   /* section 3 web layout postion  */
+  
+   /* section 4 img */
+  .opex{
+    background-color: #000000;
+    width: 950px;
+  }
+  
+  .opex > img{
+  width: 900px;
+  opacity: 0.5;
+  }
+  
+  .opex > img:hover{
+    opacity: 1;
+  }
+   
+  
+  /* Footerlayout */
+  
+  .FOOTER{
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+    position: static;
+    border:none;
+    width: 100%;
+    padding: 7px;
+    margin-top: 100px;
+  }
